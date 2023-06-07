@@ -1,0 +1,30 @@
+.title {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+@media (max-width: 800px) {
+    .title {
+        width: 80%;
+    }
+}
+
+.firsttitle {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #4D4F62;
+    white-space: nowrap;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.titletext {
+    font-family: 'Poppins', sans-serif;
+    color: #a0a0a0;
+    font-weight: 400;
+    font-size: 14px;
+}

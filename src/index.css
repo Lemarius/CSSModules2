@@ -1,3 +1,21 @@
 body {
 	font-family: sans-serif;
 }
+
+.grid {
+	margin: auto;
+	width: 1500px;
+	display: grid;
+  	grid-template-columns: 1fr 20% 1fr;
+  	grid-template-rows: 1fr 30px 1fr;
+  	justify-items: center;
+  	align-items: center;
+	gap: 1.25rem;
+}
+
+@media (max-width: 800px) {
+	.grid {
+		display: block;
+		margin: auto;
+	}
+}
